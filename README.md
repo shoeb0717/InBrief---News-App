@@ -41,8 +41,8 @@ To get a copy of this project up and running on your local machine, follow these
 
       companion object{
         const val API_KEY=your_api_key
-      }
-      }
+       }
+     }
      ```
 
 5. **Sync Gradle**: Make sure to sync your Gradle files.
