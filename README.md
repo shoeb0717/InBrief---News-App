@@ -34,15 +34,15 @@ To get a copy of this project up and running on your local machine, follow these
    - After signing up, you will receive an API key in your account dashboard.
 
 4. **Add Your API Key**:
-   - Create a new file called `ApkiKey.kt` in the `app/src/main/java/com/learngram/mvvmnewsapp/utils` directory.
+   - Create a new file called `ApiKey.kt` in the `app/src/main/java/com/learngram/mvvmnewsapp/utils` directory.
    - Add your NewsAPI key in the following format:
      ```
      class ApiKey {
 
       companion object{
         const val API_KEY=your_api_key
-      }
-      }
+       }
+     }
      ```
 
 5. **Sync Gradle**: Make sure to sync your Gradle files.
